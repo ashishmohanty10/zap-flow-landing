@@ -1,12 +1,12 @@
+import { Cross } from "lucide-react";
+import Link from "next/link";
+import { Button } from "./ui/button";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@repo/ui/components/ui/tooltip";
-import { Cross } from "lucide-react";
-import Link from "next/link";
-import { Button } from "@repo/ui/components/ui/button";
+} from "./ui/tooltip";
 
 export function BackButton({ url }: { url: string }) {
   return (
