@@ -24,6 +24,7 @@ export function Hero() {
 
       <div className="bg-zinc-900 rounded-md border-8 border-stone-600 shadow-lg h-[400px] w-[400px] xl:h-[600px] xl:w-[1200px]">
         <Image
+          priority
           src="/image.png"
           alt="image"
           width={900}
