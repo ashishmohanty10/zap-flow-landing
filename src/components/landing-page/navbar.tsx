@@ -30,7 +30,7 @@ export function Navbar() {
         <div className="hidden xl:flex items-center justify-center space-x-6 text-center">
           {navLinks.map((items) => (
             <Link
-              href={items.link}
+              href="#"
               key={items.id}
               className={cn(
                 `font-medium text-base text-slate-300/70 hover:text-stone-300 transition text-center`,
