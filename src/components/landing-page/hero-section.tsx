@@ -22,14 +22,14 @@ export function Hero() {
         <Button>Get Started Now</Button>
       </Link>
 
-      <div className="bg-zinc-900 rounded-md border-8 border-stone-600 shadow-lg h-[400px] w-[400px] xl:h-[600px] xl:w-[1200px]">
+      <div className="hidden xl:block bg-zinc-900 rounded-md border-8 border-stone-600 shadow-lg h-[400px] md:w-[600px] xl:h-[600px] xl:w-[1200px]">
         <Image
           priority
           src="/image.png"
           alt="image"
           width={900}
           height={800}
-          className="w-full h-full object-cover"
+          className="xl:w-full xl:h-full w-full h-full object-fill"
         />
       </div>
 
